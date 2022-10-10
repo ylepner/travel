@@ -1,0 +1,35 @@
+.promo {
+  background-image: url(/assets/img/promo-img.png);
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: #F2785C;
+  opacity: 70%;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: auto;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding-right: 42px;
+}
+
+.button_colored {
+  background-color: #0D606F;
+  color: white;
+  border: none;
+}
