@@ -4,8 +4,7 @@
 }
 
 .header {
-  background-color: #F2785C;
-  opacity: 70%;
+  background-color: rgba(242, 120, 92, 0.7);
 }
 
 .wrapper {
@@ -17,6 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 25px;
 }
 
 .navigation {
@@ -26,10 +26,21 @@
 
 li {
   padding-right: 42px;
+  font-family: 'Red Hat Text', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
 }
 
 .button_colored {
   background-color: #0D606F;
   color: white;
   border: none;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
 }
