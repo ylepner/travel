@@ -1,0 +1,38 @@
+.promo {
+  background-image: url(/assets/img/promo-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 122px 15px 221px 15px;
+}
+
+.promo_p {
+  font-style: italic;
+  color: $color-light;
+  font-weight: 700;
+  padding-bottom: 46px;
+}
+
+.search-box {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  width: 892px;
+  padding: 18px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.input {
+  background: none;
+  border: none;
+  width: 560px;
+}
+
+.input::placeholder {
+  color: $color-primary;
+  font-family: 'Aleo', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
