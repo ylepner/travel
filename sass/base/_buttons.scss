@@ -1,0 +1,31 @@
+.button {
+  border-radius: 10px;
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: 500;
+  line-height: 2.1rem;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.button_colored_small {
+  padding: 10px 30px 10px 30px;
+  font-size: 1.6rem;
+  background-color: $color-secondary;
+  color: $color-light;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+}
+
+.button_colored {
+  padding: 19.5px 32.5px ;
+  font-size: 2.4rem;
+  background-color: $color-secondary;
+  color: $color-light;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+}
+
+.button_colored:hover {
+  filter: drop-shadow(2px 4px 6px grey);
+  color: $color-hover;
+}
