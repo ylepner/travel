@@ -1,11 +1,5 @@
-html {
-  font-size: 10px;
-}
-
-body {
-  font-size: 1.6rem;
-  font-family: 'Aleo', serif;
-}
+@import "base/base";
+@import "abstracts/constants";
 
 .promo {
   background-image: url(/assets/img/promo-img.png);
