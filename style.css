@@ -1,3 +1,12 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Aleo', serif;
+}
+
 .promo {
   background-image: url(/assets/img/promo-img.png);
   background-repeat: no-repeat;
@@ -28,7 +37,6 @@ li {
   padding-right: 42px;
   font-family: 'Red Hat Text', sans-serif;
   color: white;
-  font-size: 16px;
   font-weight: 500;
   line-height: 21px;
 }
