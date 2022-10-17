@@ -1,8 +1,9 @@
-@import "base/base";
 @import "abstracts/constants";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+@import "base/base";
+@import "layouts/wrapper";
 @import "layouts/header";
 @import "base/buttons";
 @import "components/promo";
-@import "layouts/wrapper";
 @import "base/logo";
-@import "abstracts/placeholders";
