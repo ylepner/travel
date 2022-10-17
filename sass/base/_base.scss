@@ -8,33 +8,21 @@ body {
 }
 
 h1 {
-  font-family: 'Aleo', serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 80px;
-  line-height: 96px;
+  @include font(80px, 700, 96px, $color-light);
+  @extend %font-primary;
 }
 
 h2 {
-  font-family: 'Red Hat Text', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 53px;
+  @include font(40px, 500, 53px, $color-primary);
+  @extend %font-secondary;
 }
 
 h3 {
-  font-family: 'Red Hat Text';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 42px;
+  @include font(35px, 500, 42px, $color-secondary);
+  @extend %font-secondary;
 }
 
 p {
-  font-family: 'Aleo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  @include font(20px, 400, 24px, $color-secondary);
+  @extend %font-primary;
 }
