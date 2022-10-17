@@ -1,7 +1,6 @@
-.logo-object {
-  cursor: pointer;
-}
-
-.logo-svg {
+.logo-svg:hover {
+  .logo-text {
+    fill: $color-secondary;
+  }
   cursor: pointer;
 }
