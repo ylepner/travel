@@ -1,0 +1,12 @@
+.stories__image {
+  display: inline-flex;
+  align-items: center;
+  >* {
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+  }
+}
+
+.stories__content {
+  margin-left: 40px;
+}

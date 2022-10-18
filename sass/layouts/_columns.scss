@@ -1,5 +1,5 @@
 .layout-2-column {
-  @include columns(70%)
+  display: flex;
 }
 
 .layout-3-column {
