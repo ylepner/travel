@@ -17,12 +17,13 @@ h2 {
   @include font(40px, 500, 53px, $color-primary);
   @extend %font-secondary;
   @extend %text-center;
-  margin: 0;
+  margin: 0 0 40px;
 }
 
 h3 {
   @include font(35px, 500, 42px, $color-secondary);
   @extend %font-secondary;
+  margin: 0 0 24px;
 }
 
 p {
