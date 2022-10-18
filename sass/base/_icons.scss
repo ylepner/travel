@@ -1,0 +1,32 @@
+.ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.icon-square {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  background-color: $color-primary;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ico_bike {
+  background-image: url("/assets/img/bike.svg");
+  width: 50px; 
+  height: 45px;
+}
+
+.ico_calendar {
+  background-image: url("/assets/img/calendar.svg");
+  width: 52px; 
+  height: 52px;
+}
+
+.ico_airplane {
+  background-image: url("/assets/img/airplane.svg");
+  width: 60px; 
+  height: 45px;
+}
