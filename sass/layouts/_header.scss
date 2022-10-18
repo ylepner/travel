@@ -11,21 +11,3 @@
   align-items: center;
   padding: 25px;
 }
-
-.navigation {
-  display: flex;
-}
-
-.navigation__link {
-  list-style: none;
-  padding-right: 42px;
-  font-family: 'Red Hat Text', sans-serif;
-  color: white;
-  font-weight: 500;
-  line-height: 21px;
-  cursor: pointer;
-}
-
-.navigation__link:hover {
-  color: $color-hover;
-}

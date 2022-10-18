@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+}
+
+.navigation__link {
+  @extend %transition;
+  list-style: none;
+  padding-right: 42px;
+  font-family: 'Red Hat Text', sans-serif;
+  color: white;
+  font-weight: 500;
+  line-height: 21px;
+  cursor: pointer;
+  &:hover {
+    color: $color-hover;
+  }
+}
