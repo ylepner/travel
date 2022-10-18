@@ -5,6 +5,7 @@ html {
 body {
   font-size: 1.6rem;
   @extend %font-primary;
+  position: relative;
 }
 
 h1 {
