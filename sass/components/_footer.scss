@@ -25,6 +25,17 @@
   right: 121px;
   width: 140px;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
 }
 
+.footer__link_instagram {
+  @include svg (34px, 34px, url("/assets/img/instagram.svg"))
+}
+
+.footer__link_youtube {
+  @include svg (33px, 28px, url("/assets/img/youtube.svg"))
+}
+
+.footer__link_twitter {
+  @include svg (33px, 27px, url("/assets/img/twitter.svg"))
+}
