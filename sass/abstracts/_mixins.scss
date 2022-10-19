@@ -14,3 +14,11 @@
     flex-basis: $width;
   }
 }
+
+@mixin svg ($width, $height, $img, $repeat: no-repeat, $size: cover) {
+  background-image: $img;
+  background-repeat: $repeat;
+  background-size: $size;
+  width: $width;
+  height: $height;
+}
