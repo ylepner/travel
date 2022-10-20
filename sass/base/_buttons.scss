@@ -32,3 +32,19 @@
     color: $color-hover;
   }
 }
+
+.button_round {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: $color-primary-light;
+  border: none;
+  margin: 0 5px;
+  &_selected {
+    background: $color-primary;
+  }
+}
+
+.buttons_round {
+  margin-bottom: 40px;
+}
