@@ -1,6 +1,6 @@
 .logo-svg:hover {
-  .logo-text {
-    fill: $color-secondary;
+  .logo-pic {
+    fill: $color-hover;
     @extend %transition;
   }
   cursor: pointer;
