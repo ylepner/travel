@@ -9,7 +9,8 @@
 
 .slider__images {
   display: flex;
-  transform: translateX(-500px);
+  transform: translateX(0%);
+  justify-content: center;
 }
 
 .slider__buttons {
