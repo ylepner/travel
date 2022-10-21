@@ -11,10 +11,24 @@
   display: flex;
   transform: translateX(0%);
   justify-content: center;
+  margin: 0 0 24px;
 }
 
 .slider__buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.image__text {
+  @include font (32px, 500, 42px, $color-light);
+  @extend %font-secondary;
+  position: absolute;
+  bottom: 40px;
+  left: 45px;
+}
+
+.slider__image {
+  height: 800px;
+  position: relative;
 }
