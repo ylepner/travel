@@ -10,8 +10,15 @@
 
 .step__p {
   margin: 30px 0 0 0;
+  @include media-mobile {
+    margin: 19px 0 0;
+    line-height: 1.2rem;
+  }
 }
 
 .steps {
   padding: 0 0 100px 0;
+  @include media-mobile {
+    padding: 0;
+  }
 }

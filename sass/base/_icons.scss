@@ -11,22 +11,38 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  @include media-mobile {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .ico_bike {
   background-image: url("/assets/img/bike.svg");
   width: 50px; 
   height: 45px;
+  @include media-mobile {
+    width: 35px;
+    height: 32px;
+  }
 }
 
 .ico_calendar {
   background-image: url("/assets/img/calendar.svg");
   width: 52px; 
   height: 52px;
+  @include media-mobile {
+    width: 35px;
+    height: 35px;
+  }
 }
 
 .ico_airplane {
   background-image: url("/assets/img/airplane.svg");
   width: 60px; 
   height: 45px;
+  @include media-mobile {
+    width: 40px;
+    height: 30px;
+  }
 }
