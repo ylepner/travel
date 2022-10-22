@@ -5,3 +5,9 @@
   }
   cursor: pointer;
 }
+
+.logo-text {
+  @include media-mobile {
+    display: none;
+  }
+}
