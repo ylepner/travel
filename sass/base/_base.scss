@@ -19,15 +19,24 @@ h2 {
   @extend %font-secondary;
   @extend %text-center;
   margin: 0 0 40px;
+  @include media-mobile {
+    font-size: 1.4rem;
+  }
 }
 
 h3 {
   @include font(3.5rem, 500, 4.2rem, $color-secondary);
   @extend %font-secondary;
   margin: 0 0 24px;
+  @include media-mobile {
+    font-size: 1.1rem;
+  }
 }
 
 p {
   @include font(2rem, 400, 2.4rem, $color-secondary);
   @extend %font-primary;
+  @include media-mobile {
+    font-size: 1rem;
+  }
 }

@@ -26,6 +26,9 @@
   position: absolute;
   bottom: 40px;
   left: 45px;
+  @include media-mobile {
+    font-size: 2rem;
+  }
 }
 
 .slider__image {
