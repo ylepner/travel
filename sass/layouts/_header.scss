@@ -3,6 +3,10 @@
   position: absolute;
   width: 100%;
   box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+  @include media-mobile {
+    background: none;
+    box-shadow: none;
+  }
 }
 
 .header__wrapper {
@@ -10,4 +14,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 25px;
+}
+
+.header__navigation {
+  @include media-mobile {
+    display: none;
+  }
 }
