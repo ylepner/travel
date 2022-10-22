@@ -53,8 +53,40 @@
   &_selected {
     background: $color-primary;
   }
+  @include media-mobile {
+    width: 8px;
+    height: 8px;
+    padding: 0!important;
+    margin: 0 3px;
+  }
 }
 
 .buttons_round {
   margin-bottom: 40px;
+  @include media-mobile {
+    margin: 0 0 22px;
+  }
+}
+
+.switch__button {
+  width: 25px;
+  height: 25px;
+  &_left {
+  border-top: solid 5px rgba(242, 120, 92, 0.5);
+  border-left: solid 5px rgba(242, 120, 92, 0.5);
+  transform: rotate(-45deg);
+    &_clicked {
+      border-top: solid 5px $color-primary;
+      border-left: solid 5px $color-primary;
+    }
+  }
+  &_right {
+  border-top: solid 5px rgba(242, 120, 92, 0.5);
+  border-right: solid 5px rgba(242, 120, 92, 0.5);
+  transform: rotate(45deg); 
+    &_clicked {
+      border-top: solid 5px $color-primary;
+      border-right: solid 5px $color-primary;
+    }
+  }
 }
