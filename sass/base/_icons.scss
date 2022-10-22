@@ -19,30 +19,36 @@
 
 .ico_bike {
   background-image: url("/assets/img/bike.svg");
+  background-repeat: no-repeat;
   width: 50px; 
   height: 45px;
   @include media-mobile {
     width: 35px;
     height: 32px;
+    background-size: contain;
   }
 }
 
 .ico_calendar {
   background-image: url("/assets/img/calendar.svg");
+  background-repeat: no-repeat;
   width: 52px; 
   height: 52px;
   @include media-mobile {
     width: 35px;
     height: 35px;
+    background-size: contain;
   }
 }
 
 .ico_airplane {
   background-image: url("/assets/img/airplane.svg");
+  background-repeat: no-repeat;
   width: 60px; 
   height: 45px;
   @include media-mobile {
     width: 40px;
     height: 30px;
+    background-size: contain;
   }
 }
