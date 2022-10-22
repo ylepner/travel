@@ -4,7 +4,7 @@
   background-size: cover;
   padding: 122px 15px 221px 15px;
   @include media-mobile {
-  padding: 142px 15px 61px 15px;
+  padding: 141px 0 61px 0;
   background-image:  linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%), url(/assets/img/promo-img.png);
   }
 }
