@@ -1,17 +1,23 @@
 .step {
   display: inline-flex;
   flex-direction: column;
+  align-items: center;
   &_1 {
-    align-items: flex-start;
-    text-align: start;
+    @include media-mobile {
+      align-items: flex-start;
+      text-align: start;
+    }
   }
   &_2 {
-    align-items: center;
-    text-align: center;
+    @include media-mobile {
+      text-align: center;
+    }
   }
   &_3 {
-    align-items: flex-end;
-    text-align: end;
+    @include media-mobile {
+      align-items: flex-end;
+      text-align: end;
+    }
   }
 }
 
