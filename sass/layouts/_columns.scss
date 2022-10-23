@@ -1,6 +1,9 @@
 .layout-2-column {
   display: flex;
   margin: 40px 0 30px;
+  @include media-mobile {
+    margin: 0;
+  }
 }
 
 .layout-3-column {

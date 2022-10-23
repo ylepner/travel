@@ -1,36 +1,70 @@
+.stories__card {
+  @include media-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+      &:last-child {
+        padding-bottom: 0px;
+      }
+  }
+}
 .stories__image {
   display: inline-flex;
   align-items: center;
   >* {
     filter: drop-shadow(0px 4px 4px #0D606F);
     border-radius: 16px;
+    @include media-mobile {
+      width: 155px;
+      height: 130px;
+    }
   }
 }
 
 .stories__content {
   margin-left: 40px;
+  @include media-mobile {
+    margin: 0;
+    padding: 10px 0;
+  }
 }
 
 .stories__wrapper {
   max-width: 1200px;
+  @include media-mobile {
+    padding-bottom: 13px;
+  }
 }
 
 .stories__p {
   margin: 0;
-  @include media-mobile {
-  font-size: 0.9rem;
-  line-height: 1.1rem;
-  }
+    @include media-mobile {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    width: 195px;
+    max-height: 102px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
 }
 
 .stories__link {
   @include font(20px, 700, 24px, $color-secondary);
+  text-decoration: underline;
+  @include media-mobile {
+    font-size: 9px;
+    line-height: 10px;
+  }
 }
 
 .stories__button {
   display: flex;
   justify-content: center;
   margin: 40px 0 41px;
+  @include media-mobile {
+    margin: 0;
+  }
 }
 
 .stories__h2 {
