@@ -32,6 +32,8 @@ h3 {
   margin: 0 0 24px;
   @include media-mobile {
     font-size: 1.1rem;
+    line-height: 1.3rem;
+    margin: 0 0 10px;
   }
 }
 
