@@ -3,6 +3,11 @@
     bottom: 0px;
     width: 100%;
     height: 61px;
+    @include media-mobile {
+      display: flex;
+      justify-content: center;
+      height: 65px;
+    }
 }
 
 .footer__wrapper {
@@ -17,6 +22,9 @@
 .footer__p {
   @include font(16px, 500, 21px, $color-light);
   @extend %font-secondary;
+  @include media-mobile {
+    display: none;
+  }
 }
 
 .footer__links {
@@ -40,4 +48,7 @@
 
 .spacer {
   width: 140px;
+  @include media-mobile {
+    display: none;
+  }
 }
