@@ -40,7 +40,7 @@
   width: 165px;
   background-color: $color-primary;
   @include media-mobile {
-    display: block;
+    display: none;
   }
 }
 
