@@ -31,9 +31,9 @@
     padding: 9px 9px 9px 16.5px;
     display: inline-block;
   }
-  @include media-small {
-    display: flex;
-  }
+  // @include media-small {
+  //   display: flex;
+  // }
 }
 
 .input {
@@ -55,9 +55,9 @@
   @include media-mobile {
     font-size: 1.4rem;
   }
-  @include media-small {
-    font-size: 1.3rem;
-  }
+  // @include media-small {
+  //   font-size: 1.3rem;
+  // }
 }
 
 .promo__background {

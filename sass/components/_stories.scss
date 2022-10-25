@@ -57,18 +57,17 @@
   @include media-mobile {
   font-size: 0.9rem;
   line-height: 1.1rem;
-  width: 195px;
   max-height: 102px;
     &::before {
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...";
     }
   }
-  @include media-small {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 125px;
-  }
+  // @include media-small {
+  //   white-space: nowrap;
+  //   overflow: hidden;
+  //   text-overflow: ellipsis;
+  //   width: 125px;
+  // }
 }
 
 .stories__link {

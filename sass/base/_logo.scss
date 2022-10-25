@@ -1,12 +1,12 @@
 .logo-svg:hover {
-  .logo-pic {
+  .logo-text {
     fill: $color-hover;
     @extend %transition;
   }
   cursor: pointer;
 }
 
-.logo-text {
+.logo-svg {
   @include media-mobile {
     display: none;
   }
