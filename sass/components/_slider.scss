@@ -48,6 +48,7 @@
 .slider__buttons-round {
   display: flex;
   align-items: center;
+  justify-content: center;
   @include media-mobile {
     position: absolute;
     bottom: 10%;
