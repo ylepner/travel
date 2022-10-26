@@ -14,6 +14,9 @@
         padding-top: 0px;
       }
   }
+  @media (max-width: 360px) {
+    width: 50%;
+  }
 }
 .stories__image {
   display: inline-flex;
@@ -36,9 +39,12 @@
 }
 
 .stories__content_text {
-  width: 760px;
+  width: 100%;
   @include media-mobile {
     margin-left: 10px;
+  }
+  @media (max-width: 330px) {
+    margin-left: 5px;
   }
 }
 
@@ -68,6 +74,11 @@
   //   text-overflow: ellipsis;
   //   width: 125px;
   // }
+  @media (max-width: 360px) {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
 }
 
 .stories__link {
