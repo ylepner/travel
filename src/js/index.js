@@ -1,5 +1,6 @@
 window.onload = function () {
   addButtonRoundHandler();
+  addImageHandler();
 }
 
 const addButtonRoundHandler = () => {
@@ -21,15 +22,22 @@ const selectClickedButton = (clickedButton) => {
   clickedButton.classList.add('button_round_selected')
 }
 
-const slideImage = (button) => {
+const slideImage = (el) => {
+  console.log(el.classList.contains('image_1'))
   const slider = document.querySelector('.slider__images')
-  if (button.classList.contains('round-1')) {
+  if (['round-1', 'image_1'].some(cl => el.classList.contains(cl))) {
     slider.style.transform = 'translateX(50%)';
   }
-  if (button.classList.contains('round-2')) {
+  if (['round-2', 'image_2'].some(cl => el.classList.contains(cl))) {
     slider.style.transform = 'translateX(0%)';
   }
-  if (button.classList.contains('round-3')) {
+  if (['round-3', 'image_3'].some(cl => el.classList.contains(cl))) {
     slider.style.transform = 'translateX(-50%)';
   }
+}
+
+const addImageHandler = () => {
+  document.querySelector('.slider__images').addEventListener('click', (e) => {
+    slideImage(e.target)
+  })
 }

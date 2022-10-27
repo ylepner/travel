@@ -34,6 +34,7 @@
 }
 
 .slider__image {
+  cursor: pointer;
   height: 800px;
   position: relative;
   @include media-mobile {
