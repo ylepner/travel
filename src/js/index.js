@@ -1,6 +1,5 @@
 window.onload = function () {
   console.log(checkIfMobileScreen());
-  addButtonRoundHandler();
   addImageHandler();
 }
 
@@ -8,27 +7,17 @@ const checkIfMobileScreen = () => {
   return window.innerWidth <= 390
 }
 
-const addButtonRoundHandler = () => {
-  document.querySelector('.slider__buttons-round').addEventListener('click', (e) => {
-    if (e.target.classList.contains('button_round')) {
-      removeSelectedButtons();
-      selectClickedButton(e.target);
-      slideImage(e.target);
-    }
-  })
-}
-
 const removeSelectedButtons = () => {
-  const roundButtons = document.querySelectorAll('.button_round');
-  roundButtons.forEach(button => button.classList.remove('button_round_selected'));
+  const roundButtons = document.querySelectorAll('.slide-number-identifier');
+  roundButtons.forEach(button => button.classList.remove('slide-number-identifier_selected'));
 }
 
 const selectClickedButton = (clickedButton) => {
-  clickedButton.classList.add('button_round_selected')
+  clickedButton.classList.add('slide-number-identifier_selected')
 }
 
 const addClassToSlideNumber = (buttonClass) => {
-  document.querySelector(`${buttonClass}`).classList.add('button_round_selected');
+  document.querySelector(`${buttonClass}`).classList.add('slide-number-identifier_selected');
 }
 
 const slideImage = (el) => {
@@ -52,6 +41,7 @@ const slideImage = (el) => {
 }
 
 const addImageHandler = () => {
+  debugger
   document.querySelector('.slider__images').addEventListener('click', (e) => {
     slideImage(e.target)
   })
