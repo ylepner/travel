@@ -1,6 +1,11 @@
 window.onload = function () {
+  console.log(checkIfMobileScreen());
   addButtonRoundHandler();
   addImageHandler();
+}
+
+const checkIfMobileScreen = () => {
+  return window.innerWidth <= 390
 }
 
 const addButtonRoundHandler = () => {
