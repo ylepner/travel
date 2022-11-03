@@ -31,11 +31,12 @@
     display: block;
     padding: 0;
     display: inline-flex;
+    transform: translateX(-20%);
   }
+  transition: all 2s ease-in-out 0s;
 }
 
 .slider__image {
-  cursor: pointer;
   height: 800px;
   position: relative;
   @include media-mobile {
@@ -125,7 +126,7 @@
   }
 }
 
-.slider__switch {
+.slider__switcher {
   position: absolute;
   top: calc(210px - 50%);
   display: flex;
@@ -144,4 +145,21 @@
 
 .search-button {
   text-align: center;
+}
+
+.slider__direction {
+  height: 800px;
+  width: 400px;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.left-direction{
+  left: 0;
+}
+
+.right-direction {
+  right: 0;
 }
