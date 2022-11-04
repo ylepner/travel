@@ -21,7 +21,6 @@
 }
 
 .slider__images {
-  @extend %transition;
   display: flex;
   transform: translateX(0%);
   justify-content: center;
@@ -33,7 +32,6 @@
     display: inline-flex;
     transform: translateX(-20%);
   }
-  transition: all 2s ease-in-out 0s;
 }
 
 .slider__image {
@@ -46,6 +44,10 @@
     justify-content: center;
     // padding: 0 15px 38px;
   }
+}
+
+.animating {
+  transition: all 2s ease-in-out 0s;
 }
 
 .slider__slide-number-identifier {
